@@ -1,2 +1,2 @@
-const opn = require('opn')
-opn('http://www.google.com');
+const os=require('os')
+console.log(os)
