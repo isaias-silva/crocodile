@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/isaias-silva/crocodile/issues"
   },
-  "homepage": "https://github.com/isaias-silva/crocodile#readme"
+  "homepage": "https://github.com/isaias-silva/crocodile#readme",
+  "dependencies": {
+    "opn": "^6.0.0"
+  }
 }
