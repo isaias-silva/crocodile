@@ -1,0 +1,19 @@
+{
+  "name": "crocodile",
+  "version": "1.0.0",
+  "description": "ferramenta util para o terminal de dispositivos moveis(termux)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaias-silva/crocodile.git"
+  },
+  "author": "zack black",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaias-silva/crocodile/issues"
+  },
+  "homepage": "https://github.com/isaias-silva/crocodile#readme"
+}
