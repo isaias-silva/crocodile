@@ -1,17 +1,18 @@
 const { default: axios } = require('axios')
 const readline = require('readline-sync')
 const ascii = require('./src/ascii')
-
+const opn=require("opn")
 console.log(ascii.logo())
 console.log(ascii.menu())
-function main() {
+async function main() {
     let comand = readline.question('comando: ')
     switch (comand) {
         case '1':
-            axios.get('http://gerador-nomes.herokuapp.com/nome/aleatorio').then((x) => {
-                console.log(`${x.data[0]} ${x.data[1]}`)
+                let number=readline.question("numero")
+                opn(`https://wa.me/${number}`)
+      
                 main()
-            })
+            
 
             break;
         case '0':
