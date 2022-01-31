@@ -9,7 +9,7 @@ async function main() {
     switch (comand) {
         case '1':
                 let number=readline.question("numero")
-                opn(`https://wa.me/${number}`)
+              await opn(`https://wa.me/${number}`)
       
                 main()
             
