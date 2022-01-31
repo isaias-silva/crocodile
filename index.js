@@ -5,14 +5,14 @@ const opn=require("opn")
 console.log(ascii.logo())
 
 async function main() {
-    console.clear()
+ 
     console.log(ascii.menu())
     let comand = readline.question('comando: ')
     switch (comand) {
         case '1':
-                let number=readline.question("numero")
+                let number=readline.question("numero: ")
               await opn(`https://wa.me/${number}`)
-      
+                console.clear()
                 main()
             
 
