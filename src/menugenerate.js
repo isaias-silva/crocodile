@@ -1,8 +1,8 @@
 const generate=function(name,rules){
-    let menu=`✪________${name}_________✪\n|`
+    let menu=`✪࿇_____${name}_____࿇✪\n|`
    
     for(let i in rules){
-        menu+=`\n|-✪▶ ${rules[i]}\n|`
+        menu+=`\n|-✦ ${rules[i]}\n|`
     }
     return menu
 }
