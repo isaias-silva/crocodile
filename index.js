@@ -34,6 +34,7 @@ async function main() {
                 }
 
             }
+            console.clear()
             await console.log(gerator.genemenu(title, rules))
             rules.splice(0, rules.length)
             await main()
