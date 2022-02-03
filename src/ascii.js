@@ -15,6 +15,7 @@ const menu=function(){
   return`  \u001b[32m
   [1]=>wa.me
   [2]=>gerador de menu
+  [3]=>gerador de aviso
   [9]=> criador
   [0]=>sair
   \u001b[0m`

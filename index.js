@@ -39,6 +39,11 @@ async function main() {
             rules.splice(0, rules.length)
             await main()
             break;
+        case '3':
+            let aviso=readline.question("digite o aviso: ")
+            await console.log(gerator.aviso(aviso))
+            await main()
+        break
         case '9':
             let me = ownner.user
             let strig = 'gostei do seu bot man! retaliação domina!'
@@ -51,6 +56,12 @@ async function main() {
 
         case '0':
             console.log("bye")
+        break
+        default:
+            console.clear()
+            console.log("\n comando inválido!\n")
+           await main()
+        break
     }
 }
 

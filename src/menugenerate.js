@@ -6,5 +6,13 @@ const generate=function(name,rules){
     }
     return menu
 }
-
-module.exports={genemenu:generate}
+const warking=function(aviso){
+    return `
+    ❗🚨🚨🚨🚨🚨[AVISO]🚨🚨🚨🚨🚨❗
+    
+     "${aviso}"
+    
+    
+    `
+}
+module.exports={genemenu:generate,aviso:warking}
