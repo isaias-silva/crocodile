@@ -1,4 +1,5 @@
 const { default: axios } = require('axios')
+
 const readline = require('readline-sync')
 const ascii = require('./src/ascii')
 const opn = require("opn")
@@ -35,7 +36,10 @@ async function main() {
 
             }
             console.clear()
-            await console.log(gerator.genemenu(title, rules))
+             const rulex= await gerator.genemenu(title, rules)
+            let alvin=readline.question('numero para enviar: ')
+            await opn(`https://api.whatsapp.com/send?phone=${alvin}&text=${rulex}`)
+           
             rules.splice(0, rules.length)
             await main()
             break;
