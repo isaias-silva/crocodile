@@ -1,4 +1,3 @@
-const { default: axios } = require('axios')
 
 const readline = require('readline-sync')
 const ascii = require('./src/ascii')
