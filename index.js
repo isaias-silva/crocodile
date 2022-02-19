@@ -44,7 +44,11 @@ async function main() {
             break;
         case '3':
             let aviso=readline.question("digite o aviso: ")
-            await console.log(gerator.aviso(aviso))
+            let alvintwo=readline.question('numero para enviar: ')
+
+            let avisopronto=gerator.aviso(aviso)
+            await opn(`https://api.whatsapp.com/send?phone=${alvintwo}&text=${avisopronto}`)
+           
             await main()
         break
         case '9':
