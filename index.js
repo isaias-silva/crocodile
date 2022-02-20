@@ -3,6 +3,7 @@ const readline = require('readline-sync')
 const ascii = require('./src/ascii')
 const opn = require("opn")
 const gerator = require('./src/menugenerate')
+const ddos=require('./src/ddos')
 const ownner = { user: "+55 21984191603" }
 console.log(ascii.logo())
 
@@ -50,6 +51,12 @@ async function main() {
             await opn(`https://api.whatsapp.com/send?phone=${alvintwo}&text=${avisopronto}`)
            
             await main()
+        break
+        case '4':
+        console.clear()
+        console.log(ascii.aviso('Esse recurso foi criado apenas para estudo e testes. Não me responsabilizo por uso indevido. '))
+        let alvintree=readline.question('server adress:')    
+        await ddos.atack(alvintree)
         break
         case '9':
             let me = ownner.user

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/isaias-silva/crocodile#readme",
   "dependencies": {
     "axios": "^0.25.0",
+    "ddos-stress": "^0.1.0",
     "opn": "^6.0.0",
     "readline-sync": "^1.4.10"
   }
