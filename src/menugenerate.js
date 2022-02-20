@@ -8,7 +8,7 @@ const generate=function(name,rules){
 }
 const warking=function(aviso){
     return `
-    ❗🚨🚨🚨🚨🚨[AVISO]🚨🚨🚨🚨🚨❗
+    ❗🚨🚨[AVISO]🚨🚨❗
     
      "${aviso}"
     
