@@ -4,6 +4,7 @@ const ascii = require('./src/ascii')
 const opn = require("opn")
 const gerator = require('./src/menugenerate')
 const ddos=require('./src/ddos')
+const malito=require('./src/malito')
 const ownner = { user: "+55 21984191603" }
 console.log(ascii.logo())
 
@@ -52,12 +53,20 @@ async function main() {
            
             await main()
         break
-        case '4':
+        case '5':
         console.clear()
         console.log(ascii.aviso('Esse recurso foi criado apenas para estudo e testes. Não me responsabilizo por uso indevido. '))
         let alvintree=readline.question('server adress:')    
         await ddos.atack(alvintree)
         break
+        case '4':
+        console.clear()
+        console.log(ascii.aviso('recurso criado para desativar/denúnciar numeros fakes. Não me responsabilizo por uso indevido.'))
+         let numb=readline.question("numero: ")
+          await  malito.desativar(numb)
+          main()
+        break
+
         case '9':
             let me = ownner.user
             let strig = 'gostei do seu bot man! retaliação domina!'

@@ -18,12 +18,13 @@ _______whatsapp tools_________
 | [1]=>wa.me                 | 
 | [2]=>gerador de menu       |
 | [3]=>gerador de aviso      |
+| [4]=>Desativar numero      |
 |____________________________|
 
 \u001b[31m 
 _____hacking tools_____
 |                      |
-| [4]=>Ddos            |
+| [5]=>Ddos            |
 |                      |
 |______________________|
 \u001b[0m
