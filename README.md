@@ -2,9 +2,9 @@
 <p>ferramenta basica para usar no termux, um emulador de terminal de celular.</p>
 
 ## ⚠️avisos⚠️
-<p>essa ferramenta foi criada apenas para <b>APRENDIZADO<b> não utilize para prejudicar pessoas, não me responsabilizo por uso indevido do código.</p>
+<p>essa ferramenta foi criada apenas para <b>APRENDIZADO</b> não utilize para prejudicar pessoas, não me responsabilizo por uso indevido do código.</p>
 
-### funções whatsapp:
+### 🟢funções whatsapp:
 <ul>
 
 <li>gerador de wa.me</li>
@@ -14,7 +14,7 @@
 
 </ul>
 
-### funções hacker:
+### 🔴 funções hacker:
 <ul>
 
 <li>Ddos (só use em sistemas/servidores que sejam seus)</li>
