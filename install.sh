@@ -1,6 +1,6 @@
+rm -r "package-lock.json"
 apt-get update && apt-get upgrade
 apt-get install node
-rm -r "package-lock.json"
 npm install axios -g 
 npm install readline-sync -g 
 npm install opn -g 
