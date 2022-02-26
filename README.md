@@ -1,4 +1,5 @@
 # crocodile
+<img src=".\src\croco.png">
 <p>ferramenta basica para usar no termux, um emulador de terminal de celular.</p>
 
 ## ⚠️avisos⚠️
