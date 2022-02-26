@@ -1,4 +1,3 @@
-rm -r "package-lock.json"
 apt-get update && apt-get upgrade
 apt-get install node
 npm install axios -g 
