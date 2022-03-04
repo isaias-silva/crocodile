@@ -14,10 +14,3 @@
 <li>desativar numeros do whatsapp</li>
 
 </ul>
-
-### 🔴 funções hacker:
-<ul>
-
-<li>Ddos (só use em sistemas/servidores que sejam seus)</li>
-
-</ul>
