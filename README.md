@@ -14,3 +14,16 @@
 <li>desativar numeros do whatsapp</li>
 
 </ul>
+
+### comandos
+<ul list-style="none">
+    <li>pkg update && pkg upgrade</li>
+     <li>pkg install node</li>
+      <li>pkg install git</li>
+       <li>git clone https://github.com/isaias-silva/crocodile</li>
+       <li>cd crocodile</li>
+       <li>bash install.sh</li>
+       <li>npm start</li>
+       
+       
+</ul>

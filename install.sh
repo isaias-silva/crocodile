@@ -7,5 +7,6 @@ npm install opn
 npm install readline-sync
 clear
 echo -e "\033[1;32m obrigado por instalar!!!"
-npm start
+echo -e "\033[1;32m #######################"
+echo -e "\u001b[0m "
 
