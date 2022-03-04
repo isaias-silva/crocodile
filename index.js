@@ -1,6 +1,6 @@
 const opn = require("opn")
 const gerator = require('./src/menugenerate')
-const ddos=require('./src/ddos')
+
 const malito=require('./src/malito')
 const ownner = { user: "+55 21984191603" }
 const ascii= require('./src/ascii')
