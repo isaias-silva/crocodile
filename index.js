@@ -50,13 +50,6 @@ const readline=require('readline-sync')
                 await main()
             break
             case '4':
-            case '5':
-            console.clear()
-            console.log(ascii.aviso('Esse recurso foi criado apenas para estudo e testes. Não me responsabilizo por uso indevido. '))
-            let alvintree=readline.question('server adress:')    
-            await ddos.atack(alvintree)
-            break
-            case '4':
             console.clear()
             console.log(ascii.aviso('recurso criado para desativar/denúnciar numeros fakes. Não me responsabilizo por uso indevido.'))
              let numb=readline.question("numero: ")
