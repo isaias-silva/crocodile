@@ -56,6 +56,12 @@ const readline=require('readline-sync')
               await  malito.desativar(numb)
               main()
             break
+            case '5':
+                console.clear()
+                  let numbtwo=readline.question("numero: ")
+                  await  malito.desbanir(numbtwo)
+                  main()
+                break
     
             case '9':
                 let me = ownner.user

@@ -1,1 +1,15 @@
-function _0x52e5(){const _0x5de130=['exports','1316928lCvunI','352212bAvzpT','\x0a\x20\x20\x20--\x20Atenciosamente,\x20Equipe\x20Webmaker\x20Brasil\x20®','1515016ncxVsI','4391944hRdQXo','2504600dKtwUy','3MmmHwR','1534841QJyrRJ','561742ywgdyB','opn'];_0x52e5=function(){return _0x5de130;};return _0x52e5();}const _0x22f415=_0x233f;function _0x233f(_0x2581a2,_0x2e88eb){const _0x52e5ca=_0x52e5();return _0x233f=function(_0x233fb0,_0x17d758){_0x233fb0=_0x233fb0-0x84;let _0x3b3e92=_0x52e5ca[_0x233fb0];return _0x3b3e92;},_0x233f(_0x2581a2,_0x2e88eb);}(function(_0x3b6463,_0x5a9967){const _0x5087ce=_0x233f,_0x1e4042=_0x3b6463();while(!![]){try{const _0x1ff89d=-parseInt(_0x5087ce(0x87))/0x1+parseInt(_0x5087ce(0x8e))/0x2+parseInt(_0x5087ce(0x8c))/0x3*(parseInt(_0x5087ce(0x89))/0x4)+parseInt(_0x5087ce(0x8b))/0x5+-parseInt(_0x5087ce(0x86))/0x6+parseInt(_0x5087ce(0x8d))/0x7+-parseInt(_0x5087ce(0x8a))/0x8;if(_0x1ff89d===_0x5a9967)break;else _0x1e4042['push'](_0x1e4042['shift']());}catch(_0xcfffdf){_0x1e4042['push'](_0x1e4042['shift']());}}}(_0x52e5,0x3f42b));const opn=require(_0x22f415(0x84)),desactive=async function(_0x590561){const _0x2e3a09=_0x22f415;opn('mailto:support@whatsapp.com?subject=perdido/roubado&body=Por\x20favor,\x20desative\x20minha\x20conta:\x20'+_0x590561+_0x2e3a09(0x88));};module[_0x22f415(0x85)]={'desativar':desactive};
+const opn=require('opn')
+const desactive= async function(n){
+
+opn(`mailto:support@whatsapp.com?subject=perdido/roubado&body=Por favor, desative minha conta: ${n}
+   -- Atenciosamente, Equipe Webmaker Brasil ®`)
+
+}
+const desban= async function(n){
+
+    opn(`mailto:support@whatsapp.com?subject=Urgente&body=Fui banido sem motivo nenhum e gostaria de ser desbanido com máxima urgência \n Numero: ${n}`)
+    
+    }
+
+
+module.exports={desativar:desactive, desbanir:desban} 
