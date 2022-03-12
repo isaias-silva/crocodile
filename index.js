@@ -58,7 +58,8 @@ const readline=require('readline-sync')
             break
             case '5':
                 console.clear()
-                  let numbtwo=readline.question("numero: ")
+              console.log(ascii.aviso('texto padrão base criado pelo \033[41;1;37m Negritodroid \033[0m  \u001b[31m'))
+                let numbtwo=readline.question("numero: ")
                   await  malito.desbanir(numbtwo)
                   main()
                 break
