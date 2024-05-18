@@ -1,9 +1,9 @@
 # crocodile
 
-<p>ferramenta basica para usar no termux, um emulador de terminal de celular.</p>
+<p>ferramenta basica que explora vulnerabilidades de aplicativos.</p>
 
 ## ⚠️avisos⚠️
-<p>essa ferramenta foi criada apenas para <b>APRENDIZADO</b> não utilize para prejudicar pessoas, não me responsabilizo por uso indevido do código.</p>
+<p>essa ferramenta foi criada apenas para <b>APRENDIZADO</b>.</p>
 
 ### 🟢funções whatsapp:
 <ul>
