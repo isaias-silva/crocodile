@@ -5,15 +5,6 @@
 ## ⚠️avisos⚠️
 <p>essa ferramenta foi criada apenas para <b>APRENDIZADO</b>.</p>
 
-### 🟢funções whatsapp:
-<ul>
-
-<li>gerador de wa.me</li>
-<li>gerador de menu</li>
-<li>gerador de aviso</li>
-<li>desativar numeros do whatsapp</li>
-
-</ul>
 
 ### comandos
 <ul list-style="none">
